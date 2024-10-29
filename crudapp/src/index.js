@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import GetEmployees2 from './ApiCalls/GetEmployees2';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import RegistrationDemo from './ValidationForm/RegistrationDemo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <GetEmployees2 />
+    <RegistrationDemo />
   </React.StrictMode>
 );
 

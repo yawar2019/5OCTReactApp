@@ -4,12 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import RegistrationDemo from './ValidationForm/RegistrationDemo';
+import RegistrationDetail3 from './ValidationForm/RegistrationDetail3';
+import Animal from './ClassComponentExample/Animal';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <RegistrationDemo />
-  </React.StrictMode>
+  
+    <Animal name='Gorilla' />
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

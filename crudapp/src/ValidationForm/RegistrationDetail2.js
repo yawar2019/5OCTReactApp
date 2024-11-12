@@ -52,13 +52,14 @@ validationSchema
     <div className='form-control'>
     <label>name</label>
     <input type='text'
-    name='name' 
-    id='name'
+           name='name' 
+            id='name'
      {...formik.getFieldProps('name')} 
-     onBlur={formik.handleBlur} 
-     value={formik.values.name}></input>
+     />
     {formik.touched.name && formik.errors.name?<div className='error'>{formik.errors.name}</div>:null}
     </div>
+
+    
     <div className='form-control'>
     <label>email</label>
     <input type='email' 

@@ -51,7 +51,13 @@ validationSchema
 <form onSubmit={formik.handleSubmit}>
     <div className='form-control'>
     <label>name</label>
-    <input type='text' name='name' id='name' onChange={formik.handleChange} onBlur={formik.handleBlur} value={formik.values.name}></input>
+    <input type='text' 
+    name='name'
+     id='name'
+     onChange={formik.handleChange}
+     onBlur={formik.handleBlur}
+    value={formik.values.name}/>
+    
     {formik.touched.name && formik.errors.name?<div className='error'>{formik.errors.name}</div>:null}
     </div>
     <div className='form-control'>
